@@ -1,0 +1,9 @@
+A set of scripts for the 4th Domain Project.
+
+These scripts are, for the most part, very rough code to manage data
+--which is mostly in the form of sequences and name/aliases--and to
+run applications on the High Powered Computing Center (HPCC) at MSU.
+
+Eventually scripts should be fairly well commented and work
+universally, but that will probably never happen.  I'll be happy at
+75% of that goal.
