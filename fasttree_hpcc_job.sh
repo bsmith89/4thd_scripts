@@ -7,8 +7,8 @@
 #+ Expects FastTree to be found at "~/Projects/eisen/bin/fasttree",
 #+ which may or not be true on other systems (TODO).
 
-FT_PATH_DEFAULT="~/Projects/eisen/bin/FastTree"
-infile=$1
-outfile=$2
+infile=rpoB.reps_all.trim.ali
+outfile=rpoB.reps_all.trim.ali.tre
+FT_PATH_DEFAULT="$HOME/Projects/eisen/bin/FastTree"
 STDERR_REDIRECTION_DEFAULT="`dirname outfile`/fasttree.err"
 $FT_PATH_DEFAULT $infile >$outfile 2>>$STDERR_REDIRECTION_DEFAULT
