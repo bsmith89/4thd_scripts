@@ -3,8 +3,7 @@
 #
 # Run FastTree as a non-interactive job
 # 
-# Take arguments for the input alignment and the output file name.
-#+ Expects FastTree to be found at "~/Projects/eisen/bin/fasttree",
+# Expects FastTree to be found at "~/Projects/eisen/bin/fasttree",
 #+ which may or not be true on other systems (TODO).
 
 infile=rpoB.reps_all.trim.ali
