@@ -10,5 +10,5 @@
 FT_PATH_DEFAULT="~/Projects/eisen/bin/fasttree"
 infile=$1
 outfile=$2
-STDERR_REDIRECTION_DEFAULT="`dirname outfile`.err"
-FT_PATH_DEFAULT $infile >$outfile 2>$STDERR_REDIRECTION_DEFAULT
+STDERR_REDIRECTION_DEFAULT="`dirname outfile`/fasttree.err"
+$FT_PATH_DEFAULT $infile >$outfile 2>>$STDERR_REDIRECTION_DEFAULT
