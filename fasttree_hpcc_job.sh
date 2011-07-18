@@ -7,7 +7,7 @@
 #+ Expects FastTree to be found at "~/Projects/eisen/bin/fasttree",
 #+ which may or not be true on other systems (TODO).
 
-FT_PATH_DEFAULT="~/Projects/eisen/bin/fasttree"
+FT_PATH_DEFAULT="~/Projects/eisen/bin/FastTree"
 infile=$1
 outfile=$2
 STDERR_REDIRECTION_DEFAULT="`dirname outfile`/fasttree.err"
