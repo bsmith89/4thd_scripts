@@ -10,7 +10,8 @@
 # '10' and none of the references seqs.
 #
 # TODO: Make this universal by checking names against the names file
-# for each of these classes.
+# for each of these classes.  See fetch_rep_names.py for ideas on how
+# to do this
 #
 # Potential use scenario:
 # 
